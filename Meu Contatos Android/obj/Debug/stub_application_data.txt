@@ -1,0 +1,2 @@
+android.app.Application
+Meu_Contatos_Android.Meu_Contatos_Android

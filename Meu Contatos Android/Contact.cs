@@ -16,7 +16,7 @@ namespace Meu_Contatos_Android
     public class Contact : Activity
     {
         private EditText edtNome, edtEmail, edtFone;
-        private Button btnEditar, btnExcluir, btnSalvar;
+        private Button btnSalvar;
         private ImageView imgContato;
         protected override void OnCreate(Bundle bundle)
         {
@@ -29,28 +29,21 @@ namespace Meu_Contatos_Android
             edtNome = (EditText)FindViewById(Resource.Id.editTextName);
             edtEmail = (EditText)FindViewById(Resource.Id.editTextEmail);
             edtFone = (EditText)FindViewById(Resource.Id.editTextPhone);
-            btnEditar = (Button)FindViewById(Resource.Id.buttonEdit);
-            btnExcluir = (Button)FindViewById(Resource.Id.buttonRemove);
             btnSalvar = (Button)FindViewById(Resource.Id.buttonSave);
             imgContato = (ImageView)FindViewById(Resource.Id.imgContact);
-            
-            //verifica se esta consultando um contato ou eh um novo
-            if(bundle != null)
+
+            //verifica se esta editando um contato ou eh um novo
+            var acao = Intent.GetStringExtra("acao");
+
+            if (acao != null && acao.Equals("editar"))
             {
-                //consultando contato
-                this.SetTitle(Resource.String.seeContact);
-                edtEmail.InputType = 0;
-                edtFone.InputType = 0;
-                edtNome.InputType = 0;
-                btnSalvar.Visibility = ViewStates.Invisible;
-
-
-            }else
+                //editar contato
+                this.SetTitle(Resource.String.editContact);
+            }
+            else if (acao != null && acao.Equals("incluir"))
             {
                 //novo contato
                 this.SetTitle(Resource.String.newContact);
-                btnEditar.Visibility = ViewStates.Invisible;
-                btnExcluir.Visibility = ViewStates.Invisible;
             }
 
             btnSalvar.Click += salvar;
@@ -62,51 +55,55 @@ namespace Meu_Contatos_Android
             var isValidoEmail = verificaEmail();
             var isValidoFone = verificaFone();
 
-            if (isValidoEmail && isValidoFone && isValidoNome)
+            if (isValidoEmail == "" && isValidoFone == "" && isValidoNome == "")
             {
                 Intent intent = new Intent(this, typeof(SeeContact));
                 intent.PutExtra("nome",edtNome.Text);
                 intent.PutExtra("email",edtEmail.Text);
                 intent.PutExtra("fone", edtFone.Text);
-
+                intent.PutExtra("acao", "confirmacao");
                 StartActivity(intent);
+                Finish();
+            }else
+            {
+                Toast.MakeText(this, isValidoNome + " " + isValidoEmail + " " + isValidoFone, ToastLength.Short).Show();
             }
         }
 
-        private Boolean verificaNome()
+        private String verificaNome()
         {
             var isValido = true;
             isValido = (!edtNome.Text.Equals(""));
 
             if (!isValido)
             {
-                Toast.MakeText(this, "Nome obrigatório", ToastLength.Short).Show();
+                return "Nome obrigatório";
             }
-            return isValido;
+            return "";
         }
 
-        private Boolean verificaFone()
+        private String verificaFone()
         {
             var isValido = true;
             isValido = Android.Util.Patterns.Phone.Matcher(edtFone.Text).Matches();
 
             if (!isValido)
             {
-                Toast.MakeText(this, "Celular inválido", ToastLength.Short).Show();
+                return "Celular inválido";
             }
-            return isValido;
+            return "";
         }
 
-        private Boolean verificaEmail()
+        private String verificaEmail()
         {
             var isValido = true;
             isValido =  Android.Util.Patterns.EmailAddress.Matcher(edtEmail.Text).Matches();
 
             if (!isValido)
             {
-                Toast.MakeText(this, "E-mail inválido", ToastLength.Short).Show();
+               return "E-mail inválido";
             }
-            return isValido;
+            return "";
         }
     }
 }

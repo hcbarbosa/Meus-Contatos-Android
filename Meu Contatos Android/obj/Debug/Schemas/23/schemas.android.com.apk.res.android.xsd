@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>18/02/2017 21:51:51</xs:documentation>
+    <xs:documentation>19/02/2017 16:31:50</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -774,6 +774,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -1408,6 +1409,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2081,6 +2083,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -2444,6 +2447,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -2758,6 +2762,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3382,6 +3387,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -3720,6 +3726,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4054,6 +4061,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4341,6 +4349,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -4595,6 +4604,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5177,6 +5187,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5595,6 +5606,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -5989,6 +6001,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -6438,6 +6451,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -6752,6 +6766,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -7066,6 +7081,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -7420,6 +7436,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -7734,6 +7751,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -8158,6 +8176,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -8528,6 +8547,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -8806,6 +8826,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -9242,6 +9263,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -9652,6 +9674,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -10180,6 +10203,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -10646,6 +10670,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -11102,6 +11127,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -11744,6 +11770,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -11980,6 +12007,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12216,6 +12244,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12452,6 +12481,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12688,6 +12718,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -12924,6 +12955,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -13160,6 +13192,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -13396,6 +13429,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -13826,6 +13860,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14089,6 +14124,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14325,6 +14361,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14561,6 +14598,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -14797,6 +14835,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -15073,6 +15112,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -15309,6 +15349,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -15623,6 +15664,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -15899,6 +15941,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -16226,6 +16269,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -16462,6 +16506,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -16927,13 +16972,17 @@
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
             <xs:enumeration value="@id/buttonAddContact" />
+            <xs:enumeration value="@id/buttonBack" />
             <xs:enumeration value="@id/buttonEdit" />
             <xs:enumeration value="@id/buttonRemove" />
-            <xs:enumeration value="@id/editText1" />
+            <xs:enumeration value="@id/buttonSave" />
+            <xs:enumeration value="@id/contatoFoneItem" />
+            <xs:enumeration value="@id/contatoNameItem" />
             <xs:enumeration value="@id/editTextEmail" />
             <xs:enumeration value="@id/editTextName" />
             <xs:enumeration value="@id/editTextPhone" />
             <xs:enumeration value="@id/imgContact" />
+            <xs:enumeration value="@id/imgContactItem" />
             <xs:enumeration value="@id/listViewContacts" />
             <xs:enumeration value="@id/llFilha" />
             <xs:enumeration value="@id/llPai" />
@@ -17012,6 +17061,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -17368,6 +17418,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -17699,6 +17750,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -18263,6 +18315,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -18595,6 +18648,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -18991,6 +19045,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -19347,6 +19402,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -19599,6 +19655,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -20296,6 +20353,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -20654,6 +20712,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -21676,6 +21735,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -21924,6 +21984,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -22211,6 +22272,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -22487,6 +22549,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -22723,6 +22786,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -22959,6 +23023,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -23195,6 +23260,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -23431,6 +23497,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -24150,6 +24217,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -24403,6 +24471,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -24717,6 +24786,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -25424,6 +25494,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -25778,6 +25849,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -26205,6 +26277,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -26551,6 +26624,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -26787,6 +26861,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -27577,6 +27652,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -27813,6 +27889,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -28049,6 +28126,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -28285,6 +28363,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -28701,6 +28780,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -28937,6 +29017,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -29341,6 +29422,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -29577,6 +29659,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -29891,6 +29974,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -30580,6 +30664,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -31109,6 +31194,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -31481,6 +31567,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -32678,6 +32765,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -32965,6 +33053,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -33292,6 +33381,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -33608,6 +33698,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -33844,6 +33935,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -34120,6 +34212,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -34356,6 +34449,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -34759,6 +34853,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -34995,6 +35090,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -35309,6 +35405,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -35623,6 +35720,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -35937,6 +36035,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -36251,6 +36350,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -36513,6 +36613,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -36749,6 +36850,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -36985,6 +37087,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -37221,6 +37324,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -37457,6 +37561,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -37887,6 +37992,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -38123,6 +38229,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -38359,6 +38466,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -39532,6 +39640,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -40378,6 +40487,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -40785,6 +40895,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -41546,6 +41657,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -42008,6 +42120,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -42260,6 +42373,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -42496,6 +42610,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -42732,6 +42847,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -43046,6 +43162,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:color/background_dark" />
@@ -43412,6 +43529,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
@@ -43648,6 +43766,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@drawable/circle" />
+            <xs:enumeration value="@drawable/contact" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/img" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />

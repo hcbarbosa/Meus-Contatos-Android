@@ -9,6 +9,7 @@ namespace Meu_Contatos_Android
     public class MainActivity : Activity
     {
         private Button btnAdd;
+        private ListView listViewcontatos;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -21,8 +22,18 @@ namespace Meu_Contatos_Android
             btnAdd.Click += delegate
             {
                Intent intent = new Intent(this, typeof(Contact));
+               intent.PutExtra("acao","incluir");
                StartActivity(intent);
+               Finish();
             };
+
+
+            ContatoList listContatos = new ContatoList();
+            var contatos = listContatos.GetListContatos();
+
+            listViewcontatos = (ListView)FindViewById(Resource.Id.listViewContacts);
+            ContatoAdapter adapter = new ContatoAdapter(contatos);
+            listViewcontatos.Adapter = adapter;
         }
     }
 }

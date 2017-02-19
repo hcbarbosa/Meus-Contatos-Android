@@ -16,7 +16,7 @@ namespace Meu_Contatos_Android
     public class SeeContact : Activity
     {
         private EditText edtNome, edtEmail, edtFone;
-        private Button btnVoltar;
+        private Button btnEditar, btnExcluir, btnVoltar;
         private ImageView imgContato;
         protected override void OnCreate(Bundle bundle)
         {
@@ -29,14 +29,50 @@ namespace Meu_Contatos_Android
             edtNome = (EditText)FindViewById(Resource.Id.editTextName);
             edtEmail = (EditText)FindViewById(Resource.Id.editTextEmail);
             edtFone = (EditText)FindViewById(Resource.Id.editTextPhone);
+            btnEditar = (Button)FindViewById(Resource.Id.buttonEdit);
+            btnExcluir = (Button)FindViewById(Resource.Id.buttonRemove);
             btnVoltar = (Button)FindViewById(Resource.Id.buttonBack);
             imgContato = (ImageView)FindViewById(Resource.Id.imgContact);
 
-            edtNome.Text = Intent.GetStringExtra("nome") ?? "dado não disponível";
-            edtEmail.Text = Intent.GetStringExtra("email");
-            edtFone.Text = Intent.GetStringExtra("Fone");
+            try
+            {
+                edtNome.Text = Intent.GetStringExtra("nome") ?? "dado não disponível";
+                edtEmail.Text = Intent.GetStringExtra("email");
+                edtFone.Text = Intent.GetStringExtra("fone");
+
+                var acao = Intent.GetStringExtra("acao");
+
+                if (acao != null && acao.Equals("consultar"))
+                {
+
+                }
+                else if (acao != null && acao.Equals("confirmacao"))
+                {
+                    btnEditar.Visibility = ViewStates.Invisible;
+                    btnExcluir.Visibility = ViewStates.Invisible;
+                }
+            }
+            catch (Exception ex)
+            {
+                Toast.MakeText(this, "Erro: "+ex.Message, ToastLength.Long).Show();
+            }   
 
             btnVoltar.Click += delegate
+            {
+                Intent intent = new Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+                Finish();
+            };
+
+            btnEditar.Click += delegate
+            {
+                Intent intent = new Intent(this, typeof(Contact));
+                intent.PutExtra("acao", "editar");
+                StartActivity(intent);
+                Finish();
+            };
+
+            btnExcluir.Click += delegate
             {
                 Intent intent = new Intent(this, typeof(MainActivity));
                 StartActivity(intent);
