@@ -1,0 +1,12 @@
+Meu_Contatos_Android.Contact, Meu Contatos Android;md53404172ff5422d7f129c050a426aa6f9.Contact
+Meu_Contatos_Android.Contact, Meu Contatos Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53404172ff5422d7f129c050a426aa6f9.Contact
+Meu_Contatos_Android.Contact;md53404172ff5422d7f129c050a426aa6f9.Contact
+meu_contatos_android.Contact;md53404172ff5422d7f129c050a426aa6f9.Contact
+Meu_Contatos_Android.MainActivity, Meu Contatos Android;md53404172ff5422d7f129c050a426aa6f9.MainActivity
+Meu_Contatos_Android.MainActivity, Meu Contatos Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53404172ff5422d7f129c050a426aa6f9.MainActivity
+Meu_Contatos_Android.MainActivity;md53404172ff5422d7f129c050a426aa6f9.MainActivity
+meu_contatos_android.MainActivity;md53404172ff5422d7f129c050a426aa6f9.MainActivity
+Meu_Contatos_Android.SeeContact, Meu Contatos Android;md53404172ff5422d7f129c050a426aa6f9.SeeContact
+Meu_Contatos_Android.SeeContact, Meu Contatos Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53404172ff5422d7f129c050a426aa6f9.SeeContact
+Meu_Contatos_Android.SeeContact;md53404172ff5422d7f129c050a426aa6f9.SeeContact
+meu_contatos_android.SeeContact;md53404172ff5422d7f129c050a426aa6f9.SeeContact

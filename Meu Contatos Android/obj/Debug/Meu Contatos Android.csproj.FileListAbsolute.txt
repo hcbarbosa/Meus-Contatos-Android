@@ -1,0 +1,43 @@
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\Meu Contatos Android.dll
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\Meu Contatos Android.pdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\Meu_Contatos_Android.Meu_Contatos_Android.apk
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\Meu_Contatos_Android.Meu_Contatos_Android-Signed.apk
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\Meu Contatos Android.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\Meu Contatos Android.dll
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\Meu Contatos Android.pdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\bin\Meu_Contatos_Android.Meu_Contatos_Android.apk
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\res\layout\contact.xml
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\res\layout\seecontact.xml
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\res\layout\main.xml
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\res\values\strings.xml
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\res\drawable\icon.png
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\res\drawable\circle.xml
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\res\drawable\img.xml
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\R.cs.flag
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\uploadflags.txt
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\Meu Contatos Android.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\Java.Interop.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\Mono.Android.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\mscorlib.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\System.ComponentModel.Composition.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\System.Core.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\System.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\System.Net.Http.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\System.Runtime.Serialization.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\System.ServiceModel.Internals.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\System.Xml.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\System.Xml.Linq.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\Java.Interop.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\Meu Contatos Android.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\Mono.Android.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\mscorlib.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\System.Core.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\System.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\System.Net.Http.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\System.Xml.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\obj\Debug\Meu Contatos Android.dll.mdb
+d:\documents\visual studio 2015\Projects\Meu Contatos Android\Meu Contatos Android\bin\Debug\Meu Contatos Android.dll.mdb
