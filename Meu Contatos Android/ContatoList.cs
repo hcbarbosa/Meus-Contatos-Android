@@ -9,77 +9,26 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SQLite;
 
 namespace Meu_Contatos_Android
 {
-
-    public class Contato
+    [Table("Contatos")]
+        public class Contato
     {
-        private int id;
-        public int Id
+        [PrimaryKey, AutoIncrement, Column("_id")]
+        public int Id { get; set; }
+
+        public string Nome { get; set; }
+
+        public string Email { get; set; }
+
+        public string Fone { get; set; }
+      
+       
+        public override string ToString()
         {
-            get
-            {
-                return id;
-            }
-
-            set
-            {
-                id = value;
-            }
-        }
-
-
-        private string nome;
-        public string Nome
-        {
-            get
-            {
-                return nome;
-            }
-
-            set
-            {
-                nome = value;
-            }
-        }
-
-        private string email;
-        public string Email
-        {
-            get
-            {
-                return email;
-            }
-
-            set
-            {
-                email = value;
-            }
-        }
-
-
-        private string fone;
-        public string Fone
-        {
-            get
-            {
-                return fone;
-            }
-
-            set
-            {
-                fone = value;
-            }
-        }
-
-        public Contato(int id, string nome, string email, string fone)
-        {
-            Id = id;
-            Nome = nome;
-            Email = email;
-            Fone = fone;
-
+            return string.Format("[Contato: ID={0}, Nome={1}, Email={2}, Fone={3}]", Id, Nome, Email, Fone);
         }
     }
 
@@ -87,14 +36,8 @@ namespace Meu_Contatos_Android
     {
         public Contato[] GetListContatos()
         {
-            Contato[] contatos = new Contato[3];
-            Contato contato1 = new Contato(1, "hanna", "hcb@hcb.com", "17981562565");
-            Contato contato2 = new Contato(2, "mary", "mary@hcb.com", "17981562565");
-            Contato contato3 = new Contato(3, "jess", "jess@hcb.com", "17981562565");
-            contatos[0] = contato1;
-            contatos[1] = contato2;
-            contatos[2] = contato3;
-            return contatos;
+            var lista = gerenciaBD.consultaContatos();
+            return lista;
         }
     }
 }

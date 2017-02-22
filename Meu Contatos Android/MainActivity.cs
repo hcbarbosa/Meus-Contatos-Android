@@ -2,6 +2,9 @@
 using Android.Widget;
 using Android.OS;
 using Android.Content;
+using SQLite;
+using System.Collections.Generic;
+using System;
 
 namespace Meu_Contatos_Android
 {
@@ -34,6 +37,25 @@ namespace Meu_Contatos_Android
             listViewcontatos = (ListView)FindViewById(Resource.Id.listViewContacts);
             ContatoAdapter adapter = new ContatoAdapter(contatos);
             listViewcontatos.Adapter = adapter;
+
+            listViewcontatos.ItemClick += verContato_ItemClick;
+        }
+
+        private void verContato_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            ContatoList listContatos = new ContatoList();
+            var contatos = listContatos.GetListContatos();
+
+            Contato contato = contatos[e.Position];
+
+            Intent intent = new Intent(this, typeof(SeeContact));
+            intent.PutExtra("acao", "consultar");           
+            intent.PutExtra("nome", contato.Nome);
+            intent.PutExtra("email", contato.Email);
+            intent.PutExtra("fone", contato.Fone);
+            intent.PutExtra("id", contato.Id);
+            StartActivity(intent);
+            Finish();
         }
     }
 }

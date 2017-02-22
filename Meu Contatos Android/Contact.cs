@@ -39,6 +39,9 @@ namespace Meu_Contatos_Android
             {
                 //editar contato
                 this.SetTitle(Resource.String.editContact);
+                edtNome.Text = Intent.GetStringExtra("nome") ?? "dado não disponível";
+                edtEmail.Text = Intent.GetStringExtra("email");
+                edtFone.Text = Intent.GetStringExtra("fone");
             }
             else if (acao != null && acao.Equals("incluir"))
             {
@@ -62,6 +65,22 @@ namespace Meu_Contatos_Android
                 intent.PutExtra("email",edtEmail.Text);
                 intent.PutExtra("fone", edtFone.Text);
                 intent.PutExtra("acao", "confirmacao");
+
+                Contato contato = new Contato();
+                var id = Intent.GetIntExtra("id",0);
+
+                if(id != 0)
+                    contato.Id = id;
+
+                contato.Nome = edtNome.Text;
+                contato.Fone = edtFone.Text;
+                contato.Email = edtEmail.Text;
+
+                contato = gerenciaBD.insereOuAtualiza(contato);
+
+                intent.PutExtra("id", contato.Id);
+                Toast.MakeText(this, "Ação realizada com sucesso", ToastLength.Short).Show();
+
                 StartActivity(intent);
                 Finish();
             }else

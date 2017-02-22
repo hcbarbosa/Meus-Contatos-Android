@@ -68,6 +68,12 @@ namespace Meu_Contatos_Android
             {
                 Intent intent = new Intent(this, typeof(Contact));
                 intent.PutExtra("acao", "editar");
+                intent.PutExtra("nome", edtNome.Text);
+                intent.PutExtra("email", edtEmail.Text);
+                intent.PutExtra("fone", edtFone.Text);
+                var id = Intent.GetIntExtra("id",0);
+                intent.PutExtra("id", id);
+
                 StartActivity(intent);
                 Finish();
             };
@@ -75,7 +81,14 @@ namespace Meu_Contatos_Android
             btnExcluir.Click += delegate
             {
                 Intent intent = new Intent(this, typeof(MainActivity));
+
+                var id = Intent.GetIntExtra("id", 0);
+                Contato contato = gerenciaBD.getContato(id);
+                gerenciaBD.remove(contato);
+                Toast.MakeText(this, "Ação realizada com sucesso", ToastLength.Short).Show();
+
                 StartActivity(intent);
+                Finish();
             };
         }
     }
